@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Login">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Registered Email ID"
+        android:id="@+id/t1"
+        android:textSize="28sp"
+        android:layout_margin="20sp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/t1"
+        android:id="@+id/e1"
+        android:inputType="textEmailAddress"
+        android:layout_marginLeft="20sp"
+        android:layout_marginRight="20sp"
+        android:hint="example@mail.com"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Password"
+        android:id="@+id/t2"
+        android:layout_below="@id/e1"
+        android:textSize="28sp"
+        android:layout_margin="20sp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/t2"
+        android:id="@+id/e2"
+        android:inputType="textPassword"
+        android:layout_marginLeft="20sp"
+        android:layout_marginRight="20sp"
+        android:hint="********"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/t3"
+        android:layout_below="@id/e2"
+        android:text="Forgot Password"
+        android:layout_marginTop="50sp"
+        android:layout_centerHorizontal="true"
+        android:textColor="#00FFFF"
+        android:clickable="true"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:layout_below="@id/t3"
+        android:id="@+id/b1"
+        android:layout_marginTop="30sp"
+        android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>

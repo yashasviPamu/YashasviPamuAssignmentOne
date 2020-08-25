@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Expenses">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Expenses"
+        android:textSize="25sp"
+        android:layout_margin="20sp"
+        android:id="@+id/tvv"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Expense name"
+        android:id="@+id/en"
+        android:layout_below="@id/tvv"
+        android:layout_margin="20sp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Expense name"
+        android:layout_below="@id/en"
+        android:id="@+id/enm"
+        android:layout_margin="20sp"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/enm"
+        android:id="@+id/adde"
+        android:layout_margin="20sp"
+        android:text="Add"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/demo"
+        android:text="Demographics"
+        android:layout_below="@id/adde"
+        android:layout_margin="20sp"/>
+
+
+</RelativeLayout>
